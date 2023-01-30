@@ -1,0 +1,144 @@
+@media screen and (min-width:600px) and (max-width: 1024px) {
+    /* Header */
+    .only-tablet-ul {
+        display: block;
+    }
+    .logo {
+        margin-left:20px ;
+        margin-bottom: 4px;
+    }
+    .div-service {
+        flex-direction: column;
+        border: 1px solid;
+        transform: translateY(-500%);
+        opacity: 0;
+        transition: all 1s linear ;
+        padding-left: 10px;
+    }
+    .po-li-1 {
+        position: absolute;
+        top: 100px;
+        right: 22%;
+        padding: 0px 10px ;
+        padding-right: 0px;
+    }
+    .po-li-1 a {
+        padding-right: 10px !important;
+    }
+    .form-user {
+        margin-left: 0px;
+    }
+    .down-2 {
+        margin-left: 25px;
+    }
+    .inp-search {
+        display: none;
+    }
+    .form-user a {
+        display: none;
+    }
+    .form-bag a {
+        display: none;
+    }
+    .form-icon form i {
+        margin-right: 0px;
+    }
+    .form-icon {
+        width: 56px;
+    }
+    .form-search:nth-child(1) {
+        margin-right: 24px;
+    }
+    
+    #check-service:checked~.div-service {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+    /* Content */
+    .content-left {
+        display: none;
+    }
+    .div-layout-main {
+        flex-direction: column;
+    }
+    .card-new-ipad {
+        width: 90%;
+    }
+    .card-airpod {
+        width: 90%;
+        margin-top: 30px;
+    } 
+    .div-menu-card {
+        width: 100%;
+    }
+    .div-card-samsung {
+        display: none;
+    }
+    .div-card-google {
+        width: 41%;
+        margin-right: 30px;
+    }
+    .div-card-google-stadia {
+        width: 41%;
+    }
+    .image-logo-stadia { 
+        align-items: center;
+        justify-content: center;
+    }
+    .close-card-tablet {
+        display: none !important;
+    }
+    .card-black {
+        flex-basis: 31%;
+    }
+    .card-white {
+        flex-basis: 31%;
+    }
+    .info-card {
+        margin-top: 30px;
+    }
+    .info-card-1 {
+        margin-top: 30px;
+    }
+    /* Footer */
+    .div-main-footer {
+        flex-direction: column;
+    }
+    .footer-left {
+        display: flex;
+        width: 100% !important;
+        align-items: center;
+        height: 30px;
+        margin-bottom: 40px;
+    }
+    .footer-left h2 {
+        margin-bottom: 0px;
+        margin-right: 135px;
+    }
+    .footer-left p {
+        margin-top: 2px;
+    }
+    .footer-link {
+        width: 32% !important;
+        margin-right: 35px;
+    }
+    ..footer-link:nth-child(2) {
+        width: 35% !important;
+    }
+    .footer-link ul {
+        width: 100%;
+    }
+    .footer-link ul li {
+        width: auto;
+    }
+    .ul-footer-tablet {
+        display: flex;
+        margin-top: 40px;
+    }
+    .ul-footer-tablet li {
+        margin-right: 30px;
+    }
+    .footer-center {
+    margin-left: 0px;
+    }
+}

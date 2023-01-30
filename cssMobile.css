@@ -1,0 +1,53 @@
+@media screen and (max-width: 599px) {
+    .ul-link {
+        display: none;
+    }
+
+    .inp-search {
+        display: none;
+    }
+
+    .form-user a {
+        display: none;
+    }
+
+    .form-bag a {
+        display: none;
+    }
+
+    .content-left {
+        display: none;
+    }
+
+    .content-right {
+        text-align: center;
+        width: auto;
+    }
+    .content-title {
+        justify-items: center !important;
+    }
+    .div-sub-mail {
+        display: none;
+    }
+
+    .p-new {
+        transform: translateX(25%);
+    }
+    .div-content { 
+        padding: 0px 15px ;
+        width: 336px;
+    }
+    .div-layout-main {
+        flex-direction: column;
+    }
+    .div-layout-main {
+        width: auto;
+    }
+    .card-new-ipad {
+        width: 90%;
+    }
+    .image-new-ipad {
+        width: 400px !important;
+        height: 120.43px !important;
+    }
+}
