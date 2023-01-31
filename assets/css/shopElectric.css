@@ -274,11 +274,7 @@
 }
 
 /* card new ipad */
-.div-new-ipad {
-    background-image: url("assets/image/image-filter/Icon-arror-right.png");
-    height: auto;
-    
-}
+
 .card-new-ipad {
     padding: 40px;
     background-color: #F2F3F5;
