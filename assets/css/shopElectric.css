@@ -270,9 +270,15 @@
 /* Layout main */
 .div-layout-main {
     margin-top: 85px;
+    gap: 30px;
 }
 
 /* card new ipad */
+.div-new-ipad {
+    background-image: url("assets/image/image-filter/Icon-arror-right.png");
+    height: auto;
+    
+}
 .card-new-ipad {
     padding: 40px;
     background-color: #F2F3F5;
@@ -417,6 +423,7 @@
 /* div-menu-card */
 .div-menu-card {
     margin-top: 30px;
+    gap: 30px;
 }
 
 .div-card-google {

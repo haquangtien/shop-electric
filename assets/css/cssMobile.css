@@ -34,7 +34,6 @@
         transform: translateX(25%);
     }
     .div-content { 
-        padding: 0px 15px ;
         width: 336px;
     }
     .div-layout-main {
@@ -47,7 +46,5 @@
         width: 90%;
     }
     .image-new-ipad {
-        width: 400px !important;
-        height: 120.43px !important;
     }
 }
